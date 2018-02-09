@@ -1,84 +1,132 @@
 <!DOCTYPE HTML>
-<!-- Website template by freewebsitetemplates.com -->
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Adam G.</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-<body>
-	<div id="header">
-		<div>
-			<div class="logo">
-				<a href="index.html">My Projects</a>
+	<head>
+		<title>sup boi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta property="og:title" content="Adam Gilbert">
+		<meta property="og:description" content="Memes 'N Shit">
+		<meta property="og:image" content="images/djelectro.gif">
+		<meta property="og:url" content="https://i-am.dj-electro.me">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Adam Gilbert">
+	</head>
+	<body class="is-loading">
+		<div class="video-background">
+    <div class="video-foreground">
+<iframe src="https://www.youtube.com/embed/SswdHwQu2wU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+	
+		<!-- Wrapper -->
+			<div id="wrapper">
+                <video autoplay loop poster="tsatsis.me/assets/img/bg.gif" id="bgvid">
+					<source src="assets/img/bg.webm" type="video/webm">
+				</video>
+				<style>
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+</style>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/djelectro.gif" alt="DJElectro Logo" /></span>
+							<h1>Adam Gilbert</h1>
+							<p>Online Idiot Dev Thing</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://twitter.com/ElectromasterT" class="fa-twitter">Twitter</a></li>
+								<li><a href="https://firesmp.com" class="fa-folder">Forum</a></li>
+								<li><a href="https://youtube.com/ElectromasterT" class="fa-youtube-play">YouTube</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Electromaster Tech</li>
+						</ul>
+					</footer>
+
 			</div>
-			<ul id="navigation">
-				<li class="active">
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="features.html">Projects</a>
-				</li>
-				<li>
-					<a href="news.html">News</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="adbox">
-		<div class="clearfix">
-			<img src="images/box.png" alt="Img" height="342" width="368">
-			<div>
-				<h1>Coding?</h1>
-				<h2>That's what I live for.</h2>
-				<p>
-					My name is Adam Gilbert. Im a coder who has a pasion for computers and coding. <span> <a href=/features.html>My Projects</a> </span>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div id="contents">
-		<div id="tagline" class="clearfix">
-			<h1>Design With Simplicity.</h1>
-			<div>
-				<p>
-					You can replace all this text with your own text. Want an easier solution for a Free Website?
-				</p>
-				<p>
-					Head straight to Wix and immediately start customizing your website!
-				</p>
-				<p>
-					Wix is an online website builder with a simple drag & drop interface, meaning you do the work online and instantly publish to the web.
-				</p>
-			</div>
-			<div>
-				<p>
-					You can replace all this text with your own text. Want an easier solution for a Free Website?
-				</p>
-				<p>
-					Head straight to Wix and immediately start customizing your website!
-				</p>
-				<p>
-					Wix is an online website builder with a simple drag & drop interface, meaning you do the work online and instantly publish to the web.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="clearfix">
-			<div id="connect">
-				<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a><a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a><a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a><a href="http://www.freewebsitetemplates.com/misc/contact/" target="_blank" class="tumbler"></a>
-			</div>
-			<p>
-				© 2023 Zerotype. All Rights Reserved.
-			</p>
-		</div>
-	</div>
-</body>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
